@@ -9,17 +9,17 @@
       },
       {
         "id": 2,
-        "name": "CityBlue Hotels",
+        "name": " Visit CityBlue Hotels in Naivasha",
         "info": "CityBlue is a borderless, branded group of business-centric hotels in Eastern and Southern Africas major cities, supported by a world-class digital infrastructure.As an African-born business which was founded in 2013 with immense passion, the ambition of this decade is to consolidate CityBlue as Africas fastest-growing local hotel chain.While focused on business clientele, CityBlues current hotels are also conference-and-leisure-friendly, located in three African port cities, two major interior capitals and one secondary city on the Victoria Falls.At CityBlue Hotels, a good night’s sleep for our guests is our main focus. Our well appointed rooms combine comfort and convenience so no guest ever has to leave their room except to face the challenge of a workday for which they would be suitably rejuvenated.",
-        "price": "3000",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXgqBPm5-yk2ln5wRklvWtgtc7PKaFA3FFloL0LvWBvw&s"
+        "price": "3000 per night",
+        "image": "https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/323035375.jpg?k=7b624e5cdad9fce764fd56a9d423866854d9fd38779ef7048be2c72ff1b19868&o=&hp=1"
       },  
       {
         "id": 3,
         "name": "Visit Utalii in Nairobi",
         "info": "Located in Nairobi, Utalii Hotel is in the suburbs. Thika Road Mall and Garden City Mall are worth checking out if shopping is on the agenda, while those wishing to experience the area's natural beauty can explore Nairobi National Park and Karura Forest. Looking to enjoy an event or a game while in town? See what's happening at Moi International Sports Centre or Nairobi City Stadium.",
-        "price": "1000",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg5jqNgwhqMsB-Sv3A4ks-cO62KWp76XfQbYtAeyMnsg&s"
+        "price": "5000 per night",
+        "image": "https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/302387768.jpg?k=3cefe811942db33139952e718ee31c850dfb4b8400b4345321e4e3712fd66502&o=&hp=1"
       },
       {
         "id": 4,
