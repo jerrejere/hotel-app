@@ -7,7 +7,7 @@ const About = () => {
       <p>Everything You Need to Know to Travel Smart and Stay Safe is what we have got for you.
         We have the perfect place for you to stay with you and also for those who have got families we've got you covered.
          The hotels mention have the best:
-         <li>
+         
           <ul>Best hotels</ul>
           <ul>Romantic sites</ul>
           <ul>Swimming
@@ -22,7 +22,7 @@ const About = () => {
           </ul>
           <ul>Best food cooked by best chefs</ul>
           <ul>Best security farm</ul>
-         </li>
+        
          And many more.Go and witnessfor yourself and see the positive results.
          We also have free cancellation and booking can be done online for you.
 

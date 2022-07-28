@@ -1,14 +1,17 @@
 import React, { useState, useEffect } from "react";
 import Loading from "./Loading";
 import Hotels from "./Hotels";
-// import Mailer from "./Mailer";
-import NavBar from "./NavBar";
+import Contact from "./Contact";
 
+import About from "./About";
+
+import { Routes, Route  } from "react-router-dom";
+import Nav from "./Nav";
 
 const url = "http://localhost:2020/hotels";
 
 function App() {
-  <NavBar />
+  
   const [loading, setLoading] = useState(false);
   const [hotels, setHotels] = useState([]);
 
@@ -52,10 +55,34 @@ function App() {
         </div>
       </main>
     );
-  }
+  }<Route exact path="/about"></Route>
   return (
     <main>
-      <Hotels hotels={hotels} removeHotel={removeHotel} />
+       
+      {/* <Router>
+        <Route exact path={<Home/>} />
+     
+     
+        <Route exact path={<About/>} />
+ 
+        <Route exact path={<Contact/>} />
+      </Router>
+     */}
+     <Nav />
+     <Routes>
+     <Route exact path="/" element={ <Hotels hotels={hotels} removeHotel={removeHotel} />} />
+
+
+     <Route exact path="/about" element={<About/>} />
+     
+     
+     <Route exact path="/contact" element={<Contact/>} />
+     </Routes>
+
+     
+   
+   
+      {/* <Hotels hotels={hotels} removeHotel={removeHotel} /> */}
     </main>
   );
   
@@ -63,3 +90,16 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
