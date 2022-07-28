@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Loading from "./Loading";
 import Hotels from "./Hotels";
 import Contact from "./Contact";
-
+import './App.css'
 import About from "./About";
 
 import { Routes, Route  } from "react-router-dom";
@@ -57,17 +57,7 @@ function App() {
     );
   }<Route exact path="/about"></Route>
   return (
-    <main>
-       
-      {/* <Router>
-        <Route exact path={<Home/>} />
-     
-     
-        <Route exact path={<About/>} />
- 
-        <Route exact path={<Contact/>} />
-      </Router>
-     */}
+    <main className="jerry">
      <Nav />
      <Routes>
      <Route exact path="/" element={ <Hotels hotels={hotels} removeHotel={removeHotel} />} />
