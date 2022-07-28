@@ -25,6 +25,7 @@ const About = () => {
         
          And many more.Go and witnessfor yourself and see the positive results.
          We also have free cancellation and booking can be done online for you.
+            We believe in the best 
 
       </p>
 
