@@ -70,9 +70,7 @@ function App() {
      </Routes>
 
      
-   
-   
-      {/* <Hotels hotels={hotels} removeHotel={removeHotel} /> */}
+  
     </main>
   );
   
