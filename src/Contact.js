@@ -6,7 +6,7 @@ export default function Contact()
 
   return(
     <div>
-      <p> Contact us through
+      <p> <h1>Contact us through</h1>
         <li>Mobile number:
         <ol>0707629420</ol>
         </li>
