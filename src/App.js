@@ -4,6 +4,7 @@ import Hotels from "./Hotels";
 import Contact from "./Contact";
 import './App.css'
 import About from "./About";
+import Mailer from "./Mailer";
 
 import { Routes, Route  } from "react-router-dom";
 import Nav from "./Nav";
@@ -67,6 +68,9 @@ function App() {
      
      
      <Route exact path="/contact" element={<Contact/>} />
+     
+     <Route exact path= "/mailer" element= {<Mailer/>} />
+
      </Routes>
 
      

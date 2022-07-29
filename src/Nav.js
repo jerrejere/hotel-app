@@ -15,6 +15,9 @@ const Nav = () => {
             <li>
               <Link to="/contact">Contact</Link>
             </li>
+            <li>
+              <Link to="/mailer">Mail us </Link>
+            </li>
           </ul>
         </nav>
   )
