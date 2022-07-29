@@ -8,7 +8,7 @@ const About = () => {
         We have the perfect place for you to stay with you and also for those who have got families we've got you covered.
          The hotels mention have the best:
          
-          <ul>Best hotels</ul>
+          <ul>Best sites</ul>
           <ul>Romantic sites</ul>
           <ul>Swimming
             <ol>spa</ol>

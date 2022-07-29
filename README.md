@@ -7,3 +7,6 @@ The project is designed in a funny way under which its a website which you could
 
 
 The link for the project is available    https://hotelskenya.herokuapp.com/
+
+
+How it works------> Its  supports the user to look at the hotels and the price. If the user is not intrested there is the decline button and when intrested the user makes contact with our offices and  there issue is sorted out. 
