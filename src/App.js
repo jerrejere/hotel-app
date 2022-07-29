@@ -48,9 +48,9 @@ function App() {
   if (hotels.length === 0) {
     return (
       <main>
-        <div className="johns">
+        <div className="title">
           <h2>Sorry your card is empty</h2>
-          <button className="bt" onClick={() => fetchHotels()}>
+          <button className="btn" onClick={() => fetchHotels()}>
            Please Reload
           </button>
         </div>

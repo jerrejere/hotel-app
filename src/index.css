@@ -6,9 +6,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-ol{
-  list-style-type: disc;
-}
 
 code {
   font-family:  'Courier New',
@@ -69,7 +66,9 @@ p {
     line-height: 1;
   }
 }
+/*  global classes */
 
+/* section */
 .section {
   width: 90vw;
   margin: 0 auto;
@@ -81,7 +80,7 @@ p {
     width: 95vw;
   }
 }
-.bt {
+.btn {
   background: rgb(51, 73, 18);
   display: inline-block;
   padding: 0.25rem 0.5rem;
@@ -100,10 +99,10 @@ main {
   max-width: 620px;
   margin: 5rem auto;
 }
-.loaded {
+.loading {
   text-align: center;
 }
-.johns {
+.title {
   text-align: center;
   margin-bottom: 4rem;
 }
@@ -115,7 +114,7 @@ main {
   margin-right: auto;
 }
 
-.hotel {
+.single-hotel {
   background: #fff;
   border-radius: 0.25rem;
   margin: 2rem 0;
@@ -151,7 +150,7 @@ main {
   padding-left: 0.25rem;
 }
 .hotel-price {
-  color: purple;
+  color: blue;
   background: white;
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
@@ -163,10 +162,10 @@ main {
   display: block;
   width: 200px;
   margin: 1rem auto 0 auto;
-  color: rgb(27, 73, 17);
+  color: rgb(62, 187, 37);
   letter-spacing: 0.1rem;
   background: transparent;
-  border: 1px solid rgb(48, 11, 11);
+  border: 1px solid hsl(360, 67%, 44%);
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
 }

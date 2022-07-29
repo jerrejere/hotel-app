@@ -3,11 +3,12 @@ body{
 }
 .jerry{
 display: flex;
+ /* justify-content: space-around; */
  align-items: flex-start;
  min-height: 18%;
  background: yellow;
  color: black;
- font-size: 1.4rem;
+ 
 
 
 }
