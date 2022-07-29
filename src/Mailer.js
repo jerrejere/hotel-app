@@ -5,16 +5,14 @@ const Mailer = () => {
 function sendEmail(e){
     e.preventDefault();
 
-    emailjs.sendForm('service_3tr1imp','template_0r04xvc',e.target,'')
+    emailjs.sendForm('service_3tr1imp','template_0r04xvc','3Zxxt69PPjDkdycRK')
 }
 
   return (
     <div className="container border"
     style={{marginTop:"50px",
     width:'50%',
-    backgroundImage:`url('https://image.shutterstock.com/image-illustration/golden-glitter-glittering-stars-on-600w-1211822470.jpg')`,
-    backgroundPosition: "center",
-    backgroundSize: "cover",
+   backgroundSize: "cover",
 
 
     }}>
