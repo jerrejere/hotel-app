@@ -80,7 +80,7 @@ p {
     width: 95vw;
   }
 }
-.btn {
+.bt {
   background: rgb(51, 73, 18);
   display: inline-block;
   padding: 0.25rem 0.5rem;
@@ -99,10 +99,10 @@ main {
   max-width: 620px;
   margin: 5rem auto;
 }
-.loading {
+.load {
   text-align: center;
 }
-.title {
+.johns {
   text-align: center;
   margin-bottom: 4rem;
 }
@@ -114,58 +114,58 @@ main {
   margin-right: auto;
 }
 
-.single-hotel {
+.hotel {
   background: #fff;
   border-radius: 0.25rem;
   margin: 2rem 0;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s linear;
 }
-.single-hotel:hover {
+.hotel:hover {
   box-shadow: 0 5px 15px rgba(77, 43, 43, 0.2);
 }
-.single-hotel img {
+.hotel img {
   width: 100%;
   height: 20rem;
   object-fit: cover;
   border-top-right-radius: 0.25rem;
   border-top-left-radius: 0.25rem;
 }
-.hotel-info {
+.intel {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1.5rem;
 }
-.hotel-info h4 {
+.info h4 {
   margin-bottom: 0;
 }
-.single-hotel button {
+.hotel button {
   background: transparent;
   border-color: transparent;
   text-transform: capitalize;
-  color: hsl(205, 78%, 60%);
+  color: hsl(300, 65%, 43%);
   font-size: 1rem;
   cursor: pointer;
   padding-left: 0.25rem;
 }
 .hotel-price {
-  color: blue;
+  color: rgb(37, 150, 62);
   background: white;
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
 }
-.single-hotel footer {
+.hotel footer {
   padding: 1.5rem 2rem;
 }
-.single-hotel .delete-btn {
+.hotel .delete-btn {
   display: block;
   width: 200px;
   margin: 1rem auto 0 auto;
-  color: rgb(62, 187, 37);
+  color: rgb(11, 17, 10);
   letter-spacing: 0.1rem;
   background: transparent;
-  border: 1px solid hsl(360, 67%, 44%);
+  border: 1px solid rgb(145, 95, 95);
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
 }

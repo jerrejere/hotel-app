@@ -3,10 +3,10 @@ import React, { useState } from "react";
 const Hotel = ({ id, image, info, name, price, removeHotel }) => {
   const [readMore, setReadMore] = useState(false);
   return (
-    <article className="single-hotel">
+    <article className="hotel">
       <img src={image} alt={name} />
       <footer>
-        <div className="hotel-info">
+        <div className="intel">
           <h4>{name}</h4>
           <h4 className="hotel-price">kshs.{price}</h4>
         </div>
