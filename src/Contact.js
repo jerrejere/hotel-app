@@ -5,7 +5,7 @@ export default function Contact()
 {
 
   return(
-    <div>
+    <div className='dead'>
       <p> Contact us through
         <li>Mobile number:
         <ol>0707629420</ol>

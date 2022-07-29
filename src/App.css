@@ -8,7 +8,11 @@ display: flex;
  min-height: 18%;
  background: yellow;
  color: black;
+ font-size: 170%;
  
-
-
+}
+.dead{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: medium;
+  color: green;
 }
