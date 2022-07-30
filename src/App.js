@@ -59,7 +59,7 @@ function App() {
     );
   }<Route exact path="/about"></Route>
   return (
-    <main className="jerry">
+    <main>
      <Nav />
      <Routes>
      <Route exact path="/" element={ <Hotels hotels={hotels} removeHotel={removeHotel} />} />

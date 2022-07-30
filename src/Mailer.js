@@ -6,6 +6,7 @@ function sendEmail(e){
     e.preventDefault();
 
     emailjs.sendForm('service_3tr1imp','template_0r04xvc','3Zxxt69PPjDkdycRK')
+    document.querySelectorAll('form').reset()
 }
 
   return (
@@ -19,6 +20,7 @@ function sendEmail(e){
         <h1 style={{marginTop:'25px'}}>Contact Form</h1>
         <form className="row" style={{margin:"25px 85px 75px 100px"}} 
         onSubmit={sendEmail}
+
         
         >
             <label>name</label>
