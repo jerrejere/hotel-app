@@ -9,7 +9,7 @@ import Mailer from "./Mailer";
 import { Routes, Route  } from "react-router-dom";
 import Nav from "./Nav";
 
-const url = "https://hotel-apinew.herokuapp.com/";
+const url = "https://hotel-apinew.herokuapp.com/hotels";
 
 function App() {
   
